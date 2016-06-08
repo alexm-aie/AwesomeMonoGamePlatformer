@@ -12,6 +12,8 @@ namespace Platformer
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D playerTexture;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
